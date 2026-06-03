@@ -10,11 +10,11 @@ export default function Categories(){
 
     return (<>
         <div>
-            <p className="text-blue-700">Explore</p>
+            <p className="text-blue-700">Explore ayush softech chor</p>
             <h2 className="text-blue-300 text-4xl font-bold">Featured Categories</h2>
             <div className="flex gap-5">
             {Card.map(item=>(
-                <div key={item.heading} className="bg-white border border-gray-500 rounded-2xl py-20">
+                <div key={item.heading} className="bg-white border border-gray-500 rounded-2xl p-10 ">
                     <div className="flex">
                         <div>
                             <Image src={item.img} alt="home" height={200} width={150}/>
