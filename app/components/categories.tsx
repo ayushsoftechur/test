@@ -10,7 +10,7 @@ export default function Categories(){
 
     return (<>
         <div>
-            <p className="text-blue-700">Explore ayush softech chor</p>
+            <p className="text-blue-700">Explore ayush softasdech chor</p>
             <h2 className="text-blue-300 text-4xl font-bold">Featured Categories</h2>
             <div className="flex gap-5">
             {Card.map(item=>(
